@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.waitingshuttle.com.example.waitingshuttle.login.LoginActivity">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:scaleType="centerCrop"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+
+            android:layout_gravity="center"
+
+
+            android:src="@drawable/ic_local_dining_black_24dp"
+
+            />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="Waiting Shuttle"
+                android:shadowDx="2"
+                android:shadowDy="3"
+                android:shadowColor="#000000"
+                android:shadowRadius="3"
+
+
+
+                android:textColor="#ffffff"
+
+                android:textSize="35dp"
+
+                android:textStyle="bold"
+
+                android:layout_marginTop="10dp"
+
+                />
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:text="Restaurant Waiting Helper"
+
+                android:textColor="#ffffff"
+
+                android:textSize="18dp"
+
+                android:textStyle="bold"
+
+                />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+            <EditText
+
+                android:id="@+id/idText"
+
+                android:layout_width="280dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:layout_marginTop="50dp"
+
+                android:background="@color/colorPrimary"
+
+                android:drawableLeft="@drawable/id"
+
+                android:drawableStart="@drawable/id"
+
+                android:hint="ID"
+
+                android:padding="10dp"
+
+                android:textColor="#ffffff"
+
+                android:textColorHint="#ffffff"
+
+                />
+
+
+            <EditText
+
+                android:id="@+id/passwordText"
+
+                android:layout_width="280dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:layout_marginTop="10dp"
+
+                android:background="@color/colorPrimary"
+
+                android:drawableLeft="@drawable/password"
+
+                android:drawableStart="@drawable/password"
+
+                android:hint="PASSWORD"
+
+                android:inputType="textPassword"
+
+                android:padding="10dp"
+
+                android:textColor="#ffffff"
+
+                android:textColorHint="#ffffff"
+
+                />
+
+
+            <Button
+
+                android:id="@+id/loginButton"
+
+                android:layout_width="140dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:layout_marginTop="10dp"
+
+                android:background="@color/colorWarning"
+
+                android:text="Login"
+
+                android:textColor="#ffffff"
+
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+
+
+                />
+
+
+            <Button
+
+                android:id="@+id/registerButton"
+
+                android:layout_width="140dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+
+                android:layout_marginTop="10dp"
+
+                android:background="@color/colorWarning"
+
+                android:text="Sign Up"
+
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+

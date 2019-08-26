@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#C277BF</color>
+    <color name="coloeCoral">#FF6F61</color>
+    <color name="lightPurple">#F7D6EC</color>
+    <color name="mediumPurple">#CFA2F2</color>
+    <color name="mediumDarkPurple">#69559D</color>
+<color name="colorPrimaryDark">#0277BD</color>
+
+<color name="colorAccent">#546E7A</color>
+
+<color name="colorWarning">#2EC4B6</color>
+
+<color name="colorGray">#8C8C8C</color>
+
+    <color name="colorBackground">#ebe5d9</color>
+
+</resources>
