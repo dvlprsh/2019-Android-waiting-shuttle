@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#992ec4b6"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="10dp"
+            android:text="Member Registration"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            >
+
+            <EditText
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:hint="ID"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/idText"
+                android:drawableStart="@drawable/id"
+                android:drawableLeft="@drawable/id"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorAccent"
+                />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:background="@color/colorWarning"
+                android:text="Check ID"
+                android:layout_gravity="center"
+                android:id="@+id/validateButton"
+                android:textColor="#ffffff"/>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/passwordText"
+            android:drawableStart="@drawable/password"
+            android:drawableLeft="@drawable/password"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD CHECK"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/passwordText2"
+            android:drawableStart="@drawable/password"
+            android:drawableLeft="@drawable/password"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            />
+
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="이름"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/nameText"
+            android:drawableStart="@drawable/name"
+            android:drawableLeft="@drawable/name"
+
+            android:background="@color/colorAccent"
+            />
+
+        <EditText
+            android:inputType="phone"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="사업자 등록번호"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/regiNumberText"
+            android:drawableStart="@drawable/regi_num"
+            android:drawableLeft="@drawable/regi_num"
+
+            android:background="@color/colorAccent"
+            />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/emailText"
+            android:drawableStart="@drawable/email"
+            android:drawableLeft="@drawable/email"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            />
+
+
+
+
+        <EditText
+            android:inputType="phone"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/phoneText"
+            android:drawableStart="@drawable/phone"
+            android:drawableLeft="@drawable/phone"
+
+            android:background="@color/colorAccent"
+            />
+        <CheckBox
+
+            android:layout_gravity="center"
+            android:id="@+id/checkBox"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="개인정보 수집에 동의" />
+        <CheckBox
+
+            android:layout_gravity="center"
+            android:id="@+id/checkBox2"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:text="서비스 이용 약관에 동의" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:text="Register"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/registerButton"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

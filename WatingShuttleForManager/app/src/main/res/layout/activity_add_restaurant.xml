@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:background="@color/cornflower"
+    >
+
+    <TextView
+        android:padding="5dp"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowRadius="5.0"
+        android:shadowDx="3.0"
+        android:textColor="#ffffff"
+        android:shadowDy="3.0"
+        android:text="우리가게 등록하기"
+        />
+</LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:id="@+id/firstActivity2_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:text="step2. 가게 정보를 등록해주세요" />
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:id="@+id/add_image"
+            android:src="@drawable/add_picture"
+            android:layout_width="match_parent"
+
+            android:layout_height="250dp"
+
+            />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="상호명"
+        android:id="@+id/AddRestaurant_Info_Activity_edittext1"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
+        android:drawableStart="@drawable/ic_edit_black_24dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+    /></android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/AddRestaurant_Info_Activity_edittext2"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="업종"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+
+        android:drawableStart="@drawable/ic_edit_black_24dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+
+
+        /></android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="280dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+        <EditText
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="전화번호"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:id="@+id/AddRestaurant_Info_Activity_edittext3"
+            android:drawableStart="@drawable/ic_edit_black_24dp"
+            android:drawableLeft="@drawable/ic_edit_black_24dp"
+
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="280dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="text"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="영업 시간"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/AddRestaurant_Info_Activity_edittext4"
+                android:drawableStart="@drawable/ic_edit_black_24dp"
+                android:drawableLeft="@drawable/ic_edit_black_24dp"
+
+
+                /></android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="280dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="text"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="휴무"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/AddRestaurant_Info_Activity_edittext5"
+                android:drawableStart="@drawable/ic_edit_black_24dp"
+                android:drawableLeft="@drawable/ic_edit_black_24dp"
+
+
+                /></android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="280dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="text"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="break time"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/AddRestaurant_Info_Activity_edittext6"
+                android:drawableStart="@drawable/ic_edit_black_24dp"
+                android:drawableLeft="@drawable/ic_edit_black_24dp"
+
+
+                /></android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="280dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="text"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="가격대"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:id="@+id/AddRestaurant_Info_Activity_edittext7"
+                android:drawableStart="@drawable/ic_edit_black_24dp"
+                android:drawableLeft="@drawable/ic_edit_black_24dp"
+
+
+                /></android.support.design.widget.TextInputLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/AddRestaurant_Info_Activity_button_cancel"
+
+        android:text="취소"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorWarning"
+        />
+
+    <Button
+        android:id="@+id/AddRestaurant_Info_Activity_button_ok"
+
+        android:text="등록하기"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorWarning"
+        />
+</LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

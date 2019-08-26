@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6F61</color>
+
+
+    <color name="colorPrimaryDark">#0277BD</color>
+
+    <color name="colorAccent">#546E7A</color>
+
+    <color name="colorWarning">#2EC4B6</color>
+
+    <color name="colorGray">#8C8C8C</color>
+    <color name="colorDGray">#8C8C8C</color>
+
+    <!--53. 화려한 꽃 색조합-->
+    <color name="cornflower">#65c4d8</color>
+    <color name="fluorescent">#9edae3</color>
+    <color name="orchid">#dab2d3</color>
+    <color name="rosybrown">#eac9c0</color>
+    <!--53. 화려한 꽃 색조합-->
+</resources>
