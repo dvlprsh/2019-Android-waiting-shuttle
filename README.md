@@ -9,6 +9,8 @@ WaitingShuttle / WaitingShuttleForManager(beta)
 - 라이브러리 : volley, glide, daum map, daum postcode, TedBottomPicker
 - 간단 소개 : 음식점 웨이팅을 도와주는 어플입니다. 일반 소비자용 어플과 음식점 사장님 전용 어플을 나누어 제작했습니다. (WaitingShuttle / WaitingShuttleForManager). 아직 제작중이어서 완성도가 떨어지는 부분이 있습니다. 추후에 수정 예정입니다.
 
+## 시연영상
+https://youtu.be/LCf0J3RG3eg
 
 ## 기능
 #### WaitingShuttleForManager
