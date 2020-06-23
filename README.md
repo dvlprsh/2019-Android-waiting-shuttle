@@ -1,4 +1,4 @@
-WaitingShuttle / WaitingShuttleForManager(beta)
+WaitingShuttle / WaitingShuttleForManager
 =============
 - 구분 : 안드로이드 애플리케이션
 - 개발인원 : 1명 (본인)
@@ -10,7 +10,7 @@ WaitingShuttle / WaitingShuttleForManager(beta)
 - 간단 소개 : 음식점 웨이팅을 도와주는 어플입니다. 일반 소비자용 어플과 음식점 사장님 전용 어플을 나누어 제작했습니다. (WaitingShuttle / WaitingShuttleForManager).
 
 ## 시연영상
-https://youtu.be/LCf0J3RG3eg
+https://www.youtube.com/watch?v=RY3084cfSgA
 
 ## 기능
 #### WaitingShuttleForManager
