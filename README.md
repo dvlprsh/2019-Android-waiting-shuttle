@@ -35,9 +35,9 @@ https://www.youtube.com/watch?v=RY3084cfSgA
 ## 화면
 |             로그인              |           가게 등록            |
 | :-------------------------: | :------------------------------------------------------: |
-| <img src="WaitingShuttle_Screenshot/screenshot1.PNG" width="400px"> | <img src="WaitingShuttle_Screenshot/screenshot2.PNG" height="400px"><img src="WaitingShuttle_Screenshot/screenshot3.PNG" height="400px"> |
+| <img src="WaitingShuttle_Screenshot/screenshot1.PNG" width="400px" /> | <img src="WaitingShuttle_Screenshot/screenshot2.PNG" height="400px" /> <img src="WaitingShuttle_Screenshot/screenshot3.PNG" height="400px" /> |
 
 |             가게 등록2              |           대기인원 등록            |
 | :-------------------------: | :------------------------------------------------------: |
-| <img src="WaitingShuttle_Screenshot/screenshot4.PNG" height="400px"><img src="WaitingShuttle_Screenshot/screenshot5.PNG" height="400px"> | <img src="WaitingShuttle_Screenshot/screenshot7.PNG" width="400px"> |
+| <img src="WaitingShuttle_Screenshot/screenshot4.PNG" height="400px" /> <img src="WaitingShuttle_Screenshot/screenshot5.PNG" height="400px" /> | <img src="WaitingShuttle_Screenshot/screenshot7.PNG" width="400px" /> |
 
